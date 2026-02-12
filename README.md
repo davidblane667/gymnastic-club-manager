@@ -4,6 +4,10 @@ A mobile-first, full-stack web application for managing a rhythmic gymnastics cl
 
 > **Note:** This is a portfolio project. The primary focus is on the **frontend** implementation — mobile-first UI, component architecture, state management, TypeScript usage, and UX.
 
+### [Live Demo](https://gymnastic-club-manager-client.vercel.app/)
+
+Demo credentials: `admin` / `admin` (full access) or `test` / `test` (read-only)
+
 ![App Screenshot](./docs/screenshots/dashboard.png)
 
 ## Key Features

@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="400" elevation="4">
+  <v-card max-width="400" elevation="4" class="mx-auto">
     <v-card-title class="text-center">
       <h2 class="text-h5 font-weight-bold">Sign In</h2>
     </v-card-title>
