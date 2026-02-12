@@ -19,7 +19,7 @@ const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/yasna"
 const allowedOrigins = [
   "http://localhost:3000",
   process.env.FRONTEND_URL,
-].filter(Boolean);
+].filter((v): v is string => Boolean(v));
 
 // Middleware
 app.use(cors({

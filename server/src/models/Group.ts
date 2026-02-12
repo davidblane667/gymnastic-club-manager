@@ -31,7 +31,7 @@ const GroupSchema = new Schema<IGroup>(
     timestamps: true,
     toJSON: {
       virtuals: true,
-      transform: (doc, ret) => {
+      transform: (_doc, ret: Record<string, unknown>) => {
         ret.groupId = ret._id;
         delete ret._id;
         delete ret.__v;

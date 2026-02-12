@@ -35,7 +35,7 @@ const ExerciseSchema = new Schema<IExercise>(
     timestamps: true,
     toJSON: {
       virtuals: true,
-      transform: (doc, ret) => {
+      transform: (_doc, ret: Record<string, unknown>) => {
         ret.id = ret._id;
         delete ret._id;
         delete ret.__v;
