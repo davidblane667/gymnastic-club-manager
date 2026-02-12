@@ -1,11 +1,10 @@
 # Yasna — Rhythmic Gymnastics Club Management
 
-A full-stack web application for managing a rhythmic gymnastics club: children, groups, class schedules, and attendance tracking.
+A mobile-first, full-stack web application for managing a rhythmic gymnastics club: children, groups, class schedules, and attendance tracking. Designed primarily for use on smartphones and tablets.
 
-> **Note:** This is a portfolio project. The primary focus is on the **frontend** implementation — component architecture, state management, TypeScript usage, and UI/UX.
+> **Note:** This is a portfolio project. The primary focus is on the **frontend** implementation — mobile-first UI, component architecture, state management, TypeScript usage, and UX.
 
-<!-- TODO: Add a hero screenshot or GIF showing the main dashboard -->
-<!-- ![App Screenshot](./docs/screenshots/dashboard.png) -->
+![App Screenshot](./docs/screenshots/dashboard.png)
 
 ## Key Features
 
@@ -15,12 +14,9 @@ A full-stack web application for managing a rhythmic gymnastics club: children, 
 - **Schedule** — weekly schedule view with time slots per group
 - **Attendance** — per-session attendance tracking (present / absent / sick)
 
-<!-- TODO: Add screenshots for each section below -->
-<!--
 | Children List | Group View | Schedule | Attendance |
 |:---:|:---:|:---:|:---:|
 | ![Children](./docs/screenshots/children.png) | ![Group](./docs/screenshots/group.png) | ![Schedule](./docs/screenshots/schedule.png) | ![Attendance](./docs/screenshots/attendance.png) |
--->
 
 ## Tech Stack
 
@@ -76,8 +72,8 @@ A full-stack web application for managing a rhythmic gymnastics club: children, 
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/yasna.git
-cd yasna
+git clone https://github.com/davidblane667/gymnastic-club-manager.git
+cd gymnastic-club-manager
 
 # Install dependencies (uses npm workspaces)
 npm install
