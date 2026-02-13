@@ -7,6 +7,17 @@ export default defineNuxtConfig({
 
   devtools: { enabled: process.env.NODE_ENV === "development" },
 
+  app: {
+    head: {
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" },
+        { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" },
+        { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
+      ],
+    },
+  },
+
   runtimeConfig: {
     public: {
       apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL || "http://localhost:3001/api",
@@ -31,12 +42,12 @@ export default defineNuxtConfig({
       display: "standalone",
       icons: [
         {
-          src: "/icon-192x192.png",
+          src: "/android-chrome-192x192.png",
           sizes: "192x192",
           type: "image/png",
         },
         {
-          src: "/icon-512x512.png",
+          src: "/android-chrome-512x512.png",
           sizes: "512x512",
           type: "image/png",
         },
