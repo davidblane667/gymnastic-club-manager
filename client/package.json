@@ -7,7 +7,10 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
@@ -30,6 +33,9 @@
   "overrides": {
     "vue": "^3.5.12"
   },
-  "optionalDependencies": {
+  "devDependencies": {
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.6.1",
+    "vitest": "^4.0.18"
   }
 }
