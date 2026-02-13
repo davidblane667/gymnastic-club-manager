@@ -33,6 +33,7 @@ Demo credentials: `admin` / `admin` (full access) or `test` / `test` (read-only)
 | **Vuetify 3** | Component library |
 | **Pinia** | State management |
 | **SCSS** | Styling |
+| **Vitest** | Unit testing |
 
 ### Backend
 
@@ -116,6 +117,18 @@ After running the seed script:
 |---|---|---|
 | `admin` | `admin` | Admin |
 | `test` | `test` | User |
+
+## Testing
+
+Unit tests for all Pinia stores using **Vitest**. Each store's actions are tested in isolation with mocked API layer.
+
+```bash
+# Run tests
+npm run test --prefix client
+
+# Watch mode
+npm run test:watch --prefix client
+```
 
 ## API Overview
 
